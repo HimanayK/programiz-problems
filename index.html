@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Type</title>
+</head>
+<body>
+    <h3 id="number-type"></h3>
+</body>
+<script>
+    let number = prompt("Enter the number");
+    let result = document.getElementById("number-type");
+
+    // Check if a number is positive, negative or zero
+    function checkNumberType(number) {
+        if (number > 0) {
+            return "Positive";
+        } 
+        else if (number == 0) {
+            return "Zero"
+        }
+        else if (number < 0) {
+            return "Negative"
+        }
+        else {
+            return "Not a number"
+        }
+    }
+
+    result.textContent = checkNumberType(number);
+</script>
+</html>
