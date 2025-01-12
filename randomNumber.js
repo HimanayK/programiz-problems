@@ -11,5 +11,5 @@ console.log(`Random number between ${min} and ${max} (inclusive) is : ${randomNu
 
 
 
-//  Math.floor(Math.random() * (max - min + 1)) + min    (both inclusive)
-// Math.floor(Math.random() * (highestNumber - lowestNumber)) + lowestNumber    (highestNumber exclusive)
+//  Math.floor(Math.random() * (max - min + 1)) + min    (both included)
+// Math.floor(Math.random() * (max - min)) + min    (max excluded)
