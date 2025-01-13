@@ -8,6 +8,9 @@ b = temp;
 
 console.log(a,b);
 
+
+
+
 //Using Destructuring assignment
 let num1 = 5;
 let num2 = 7;

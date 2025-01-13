@@ -13,3 +13,8 @@ console.log(`Random number between ${min} and ${max} (inclusive) is : ${randomNu
 
 //  Math.floor(Math.random() * (max - min + 1)) + min    (both included)
 // Math.floor(Math.random() * (max - min)) + min    (max excluded)
+
+
+
+// let randomNumber = Math.floor(Math.random() * 100);   // 0 to 99
+// console.log(randomNumber);

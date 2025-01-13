@@ -3,7 +3,7 @@ function armstrongNumber(number) {
     let temp = number;
 
     while (temp > 0) {                   //1st iteration      //2nd iteration   //3rd iteration
-        digit = temp % 10;            // 153 % 10 = 3         // 15 % 10 = 5   // 1 % 10 = 1
+        let digit = temp % 10;            // 153 % 10 = 3         // 15 % 10 = 5   // 1 % 10 = 1
         sum += digit ** 3;            // 3*3*3 = 27           // 25           // 1   total sum = (27+25+1)=153
         temp = parseInt(temp / 10); // 153 / 10 = 15.3 = 15   // 1.5 = 1     // 0.1 = 0
     }
