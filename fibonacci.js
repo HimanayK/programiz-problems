@@ -1,8 +1,8 @@
-// he Fibonacci sequence is the integer sequence where the first two terms are 0 and 1. 
+// Fibonacci sequence is the integer sequence where the first two terms are 0 and 1. 
 // After that, the next term is defined as the sum of the previous two terms.
 
 
-// program to generate fibonacci series up to n terms  -n1 for loop
+// program to generate fibonacci series up to n terms  n1 for loop
 function fibonacciNTerms(num) {
     let n1 = 0;
     let n2 = 1;
@@ -16,7 +16,7 @@ function fibonacciNTerms(num) {
        n2 = nextTerm;
     }
 }
-fibonacciNTerms(5);   // 0 1 1 2 3
+fibonacciNTerms(5);   // 0 1 1 2 3 
 
 
 //Fibonacci Sequence Up to a Certain Number  - nextTerm while loop
