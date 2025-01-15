@@ -28,8 +28,6 @@ function shuffleCards() {
 
     }
 }
-
-
 console.log("------------------Before shuffling-------------");
 displayCards();
 
