@@ -15,7 +15,7 @@ console.log(palindrome('madam'));
 
 
 
-// using in-built methods
+// using in-built methods ------------------------------------------------------
 
 function checkPalindrome(str) {
   let string = str.split('');    //converted into array    [ 'm', 'a', 'd', 'a', 'm' ]
