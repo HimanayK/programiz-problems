@@ -15,7 +15,7 @@ The length property gives the number of vowels present.
 
 //Using for loop --------------------------------------------------------------------
 function countVowel1(str) {
-    let newStr = str.toLowerCase();   //javascript algorithm -- converted to lowercase to count uppercase A in the vowel iteration
+    let newStr = str.toLowerCase();   // converted str to lowercase to count uppercase A in the vowel iteration
     let count = 0;
     let vowels = ['a','e','i','o','u'];
     // for loop iterates the string
