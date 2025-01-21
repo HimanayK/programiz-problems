@@ -39,6 +39,6 @@ console.log(occurrence(name, character));    //2
 In the above example, a regular expression (regex) is used to find the occurrence of a string.
 
 const regularExp = new RegExp(letter, 'g'); creates a regular expression.
-The match() method returns an array containing all the matches. Here, str.match(re);gives ["i", "i"].
+The match() method returns an array containing all the matches. Here, str.match(regularExp); gives ["i", "i"].
 The length property gives the length of an array element.  which is 2
 */
