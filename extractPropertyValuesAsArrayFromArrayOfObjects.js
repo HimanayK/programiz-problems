@@ -1,4 +1,20 @@
 // program to extract value as an array from an array of objects using map()
+
+let arr = [
+    {a: 1, b: 2},
+    {a: 2, b: 3},
+    {a: 4, b: 6},
+    {a: 10, b: 2},
+]
+
+
+propertyArray = arr.map(item => {
+    return item.a;
+});
+
+//---------------------------or -------------------------------------------------------------------------------------
+
+console.log(propertyArray);
 function extractPropertyValues(arr) {
     let propertyValues = arr.map((item) => {
         return item.a;    // 10 30 50

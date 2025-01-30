@@ -13,8 +13,8 @@ console.log(decToBin(8));
 function dec2Bin(num) {
     let remainder = '';     // it concatenates the remainder values instead of adding
     while(num > 0) {
-        remainder = (num % 2) + remainder;    // 4 + '' = '4'
-        num = Math.floor(num / 2);           // 4/2 = 2   // 2/2 = 1   // 1/2 = 0.5 = 0
+        remainder = (num % 2) + remainder;    // 0 + '' = '0'
+        num = Math.floor(num / 2);       // 8/2 = 4  // 4/2 = 2   // 2/2 = 1   // 1/2 = 0.5 = 0
     }
     return remainder;
 

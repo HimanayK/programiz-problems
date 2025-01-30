@@ -6,7 +6,7 @@
 // countdown timer
 let timer = setInterval(() => {
     let now = new Date().getTime();  // get today's date and time in milliseconds
-    let timeLeft = (countDownTime - now) / 1000;  //converted into milliseconds
+    let timeLeft = (countDownTime - now) / 1000;  //converted into seconds
 
     let days = Math.floor(timeLeft / 3600 / 24);      // 3600 means 60mins * 60seconds
     let hours = Math.floor(timeLeft / 3600) % 24;    //modulo 24hrs will give hours

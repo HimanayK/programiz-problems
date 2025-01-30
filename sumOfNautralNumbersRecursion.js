@@ -4,9 +4,7 @@ function sum(number) {
    if(number > 0) {
      return number = number + sum(number - 1);
    }
-   else {
     return number;
-  }
 }
 
 const result = sum(5);

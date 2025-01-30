@@ -1,4 +1,4 @@
-// Reverse string using for loop
+// Reverse string using for loop ------------------------------------------------------------------------------------
 function reverseString(str) {
     let newStr = '';
   
@@ -9,6 +9,18 @@ function reverseString(str) {
     console.log(newStr);
 }
 reverseString('Hi Himani');   //inamiH iH
+
+
+// Reverse number using for loop ------------------------------------------------------------------------------------------
+let a = 123;
+let str = a.toString();
+let res = '';
+
+for (let i = str.length -1; i >= 0 ; i--) {
+    res +=  str[i];
+}
+
+console.log(res);
 
 
 // Using in built method

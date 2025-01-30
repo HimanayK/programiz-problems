@@ -1,6 +1,6 @@
 function sortWords(sentence) {
     let words = sentence.split(' ');    // [ 'I', 'am', 'learning', 'JavaScript' ]
-    let sorted = words.sort();         // [ 'I', 'am', 'learning', 'JavaScript' ]
+    let sorted = words.sort();         // [ 'I', 'JavaScript', 'am', 'learning']
     let sortedSentence = sorted.join(' ');     // I JavaScript am learning
     console.log(sortedSentence);
 
@@ -10,7 +10,7 @@ sortWords('I am learning JavaScript');
 
 function sortWords1(sentence) {
     let wordsArray = sentence.split(' ');    // [ 'I', 'am', 'learning', 'JavaScript' ]
-    wordsArray.sort();         // [ 'I', 'am', 'learning', 'JavaScript' ]
+    wordsArray.sort();         // [ 'I', 'JavaScript', 'am', 'learning']
     
     for (const element of wordsArray) {
         console.log(element);

@@ -16,6 +16,8 @@ function sortArray(arr) {
 sortArray([{name: 'Himani', age: 50}, {name: 'Deepak', age: 70}, {name: 'Kamal', age: 30}, {name: 'Amul', age: 100}]);
 
 
+
+
 // Sort array by Property age --------------------------------------------------
 function sortArray1(arr) {
     arr.sort((a, b) => {

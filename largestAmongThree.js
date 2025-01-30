@@ -1,3 +1,15 @@
+
+// find largest number among 3 numbers using ternary operator ------------------------------------------------ 
+// let num1 = 5;
+// let num2 = 7;
+// let num3 = 8;
+
+// let greatest = num1 > num2 && num1 > num3 ? `${num1} is greatest` : num2 > num3 && num2 > num1 ? `${num2} is greatest` : `${num3} is greatest`;
+// console.log(greatest);
+
+
+
+
 function largestNumber(first, second, third) {
     if (first >= second && first >= third) {
         console.log(`${first} is the largest number`);
@@ -13,7 +25,7 @@ largestNumber(-4, -6, -6);
 
 
 
-// using max() and min() method
+// using max() and min() method ---------------------------------------------------------------------------------------
 
 let num1 = 41;
 let num2 = 22.43;

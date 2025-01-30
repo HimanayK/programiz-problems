@@ -17,4 +17,4 @@ function armstrongNumber(number) {
 
 
 }
-armstrongNumber(152);
+armstrongNumber(153);

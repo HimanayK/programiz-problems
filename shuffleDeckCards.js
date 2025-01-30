@@ -6,6 +6,7 @@ const values = ["Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Qu
 
 const deck = [];
 
+//created deck of cards
 for (i=0; i<suits.length; i++) {
     for (j=0; j<values.length; j++) {
         let card = { Value: values[j], Suit: suits[i]};
@@ -18,8 +19,8 @@ function displayCards() {
         }
 }
 function shuffleCards() {
-    for (i = 0; i <= 5; i++) {
-        const j = Math.floor(Math.random() * i);
+    for (i = deck.length - 1; i > 0; i--) {
+        let j = Math.floor((Math.random() * i));
         
         // swap values
         let temp = deck[i];
@@ -46,9 +47,9 @@ Ace of Spades
 4 of Spades
 5 of Spades
 -----------------After shuffling-------------
-6 of Spades
-5 of Spades
-Ace of Spades
-3 of Spades
-4 of Spades
+5 of Club
+8 of Spades
+King of Club
+9 of Heart
+2 of Spades
 */
